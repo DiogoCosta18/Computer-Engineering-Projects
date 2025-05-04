@@ -1,0 +1,23 @@
+Ciencias;Quantas gramas pesa um litro de água?;1,100,1000;1,10,100,500,800,1000,10000;1000
+Ciencias;A hiena pertence a que família animal?;Felinos,Canídeos,Nenhuma delas;Felinos,Canídeos,Necrófagos,Akeridae,Nenhuma delas;Nenhuma delas
+Ciencias;Qual é o símbolo químico do oxigênio?;O,Og,C;Ox,Og,Oxg,O,H;O
+Ciencias;Qual é a principal função dos glóbulos vermelhos no sangue?;Transportar oxigênio,Digestão,Produzir oxigênio;Combater infecções,Transportar oxigênio,Filtragem renal;Transportar oxigênio
+Ciencias;Qual é a fórmula química da água?;H2O2,CH4,H2O;Ag,NaCl,H2O,CO2,O2;H2O
+Artes;Quem pintou "A Noite Estrelada"?;Claude Monet,Pablo Picasso,Theo van Gogh,Leonardo da Vinci;Vincent van Gogh
+Artes;Qual é o nome da escultura de Michelangelo que representa um homem nu em pé com proporções perfeitas?;O Pensador,Moisés,Davi,A Criação de Adão;O Homem Vitruviano
+Artes;Quem foi um dos pioneiros da arte abstrata, famoso por suas composições geométricas e uso de formas primárias?;Kazimir Malevich,Georgia O'Keeffe,Jackson Pollock,Piet Mondrian;Wassily Kandinsky
+Artes;Qual movimento artístico do século XX foi marcado pelo uso de imagens do quotidiano e muitas vezes explorava a crítica social?;Expressionismo,Dadaísmo,Cubismo,Surrealismo;Pop Art
+Artes;Quem é considerado um dos principais representantes do surrealismo, conhecido por suas obras intrigantes, como "A Persistência da Memória"?;Max Ernst,Joan Miró,Frida Kahlo,René Magritte;Salvador Dalí
+Futebol;Quem ganhou o prêmio de Melhor em Campo na final da Copa do Mundo de 2014?;Mário Goetze,Sergio Aguero,Lionel Messi;Mário Goetze;10,7,19;19
+Futebol;Qual jogador é conhecido como "O Fenômeno"?;Ronaldinho Gaúcho,Ronaldo,Neymar;Ronaldo;10,7,9;9
+Futebol;Qual jogador é conhecido como "O Rei"?;Pelé,Maradona,Messi;Pelé;10,7,11;10
+Futebol;Qual jogador é conhecido como "O Mágico"?;Ronaldinho Gaúcho,Kaká,Rivaldo;Ronaldinho Gaúcho;7,9,10;10
+Futebol;Qual jogador é conhecido como "O Galinho"?;Romário,Zico,Garrincha;Zico;10,7,11;10
+Futebol;Qual jogador é conhecido como "GOAT"?;Cristiano Ronaldo,Lionel Messi,Pele;Cristiano Ronaldo;7,10,11;7
+Ski;Esquiar é um esporte praticado apenas em países com invernos rigorosos.;Verdadeiro,Falso;Falso
+Ski;A modalidade de esqui alpino inclui eventos de slalom gigante e slalom.;Verdadeiro,Falso;Verdadeiro
+Ski;Em competições de esqui cross-country, os atletas usam apenas esquis de fundo.;Verdadeiro,Falso;Falso
+Ski;Kjetil André Aamodt ganhou 8 medalhas de ouro nos Jogos Olimpicos de Inverno?;Verdadeiro,Falso;Falso
+Natacao;Michael Phelps tinha um alongamento anormal dos braços que lhe permitia tirar vantagem na natação.;Verdadeiro,Falso;Falso
+Natacao;Michael Phelps conquistou o recorde de oito medalhas de ouro nos Jogos Olímpicos.;Verdadeiro,Falso;Verdadeiro
+Natacao;Natação sincronizada é uma modalidade que combina elementos de natação, dança e ginástica, sendo realizada a solo ao som de música.;Verdadeiro,Falso;Falso

@@ -1,0 +1,117 @@
+@media only screen and (max-width: 450px) {
+
+    .competition-creation-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 10rem;
+        background-color: #f8f9fa;
+        overflow-y: auto;
+    }
+
+    .logo-container {
+        margin-top: 1rem; /* Provides some space from the top */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto; /* Ensures the height is based on the content */
+    }
+
+    .info-container {
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+        font-weight: 550;
+        font-size: 1.5rem;
+        color: #1F75FE;
+        text-align: center;
+    }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        padding: 1rem;
+        border: 1px solid #1f75fe;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        margin-bottom: 1rem;
+    }
+
+    .form-group {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    label {
+        display: block;
+        font-size: 1rem;
+        color: #1f75fe;
+        margin-top: 1rem;
+    }
+
+    input[type="text"],
+    input[type="datetime-local"] {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #1f75fe;
+        border-radius: 5px;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .routes-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        max-height: 150px;
+        overflow-y: auto;
+        margin: 0.5rem 0;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .route-item {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .route-item label {
+        margin-left: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .route-item input[type="checkbox"] {
+        margin-right: 0.5rem;
+        transform: scale(1.5);
+    }
+
+    .create-button {
+        margin-top: 1rem;
+        padding: 0.75rem 1.5rem;
+        background-color: #1f75fe;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .create-button:hover {
+        background-color: #155ab6;
+    }
+
+    .status-message {
+        margin-top: 1rem;
+        font-size: 1rem;
+        color: green;
+        text-align: center;
+    }
+}

@@ -1,0 +1,10 @@
+Ciencias;Quantas gramas pesa um litro de água?;1,100,1000;1,10,100,500,800,1000,10000;1000
+Ciencias;A hiena pertence a que família animal?;Felinos,Canídeos,Nenhuma delas;Felinos,Canídeos,Necrófagos,Akeridae,Nenhuma delas;Nenhuma delas
+Ciencias;Qual é o símbolo químico do oxigênio?;O,Og,C;Ox,Og,Oxg,O,H;O
+Ciencias;Qual é a principal função dos glóbulos vermelhos no sangue?;Transportar oxigênio,Digestão,Produzir oxigênio;Combater infecções,Transportar oxigênio,Filtragem renal;Transportar oxigênio
+Ciencias;Qual é a fórmula química da água?;H2O2,CH4,H2O;Ag,NaCl,H2O,CO2,O2;H2O
+Artes;Quem pintou "A Noite Estrelada"?;Claude Monet,Pablo Picasso,Theo van Gogh,Leonardo da Vinci;Vincent van Gogh
+Artes;Qual é o nome da escultura de Michelangelo que representa um homem nu em pé com proporções perfeitas?;O Pensador,Moisés,Davi,A Criação de Adão;O Homem Vitruviano
+Artes;Quem foi um dos pioneiros da arte abstrata, famoso por suas composições geométricas e uso de formas primárias?;Kazimir Malevich,Georgia O'Keeffe,Jackson Pollock,Piet Mondrian;Wassily Kandinsky
+Artes;Qual movimento artístico do século XX foi marcado pelo uso de imagens do quotidiano e muitas vezes explorava a crítica social?;Expressionismo,Dadaísmo,Cubismo,Surrealismo;Pop Art
+Artes;Quem é considerado um dos principais representantes do surrealismo, conhecido por suas obras intrigantes, como "A Persistência da Memória"?;Max Ernst,Joan Miró,Frida Kahlo,René Magritte;Salvador Dalí

@@ -1,0 +1,4 @@
+Esquiar é um esporte praticado apenas em países com invernos rigorosos;Verdadeiro,Falso;Falso
+A modalidade de esqui alpino inclui eventos de slalom gigante e slalom;Verdadeiro,Falso;Verdadeiro
+Em competições de esqui cross-country, os atletas usam apenas esquis de fundo;Verdadeiro,Falso;Falso
+Kjetil André Aamodt ganhou 8 medalhas de ouro nos Jogos Olimpicos de Inverno? Verdadeir,Falso;Falso

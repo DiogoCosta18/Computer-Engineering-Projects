@@ -1,0 +1,6 @@
+Quem ganhou o prêmio de Melhor em Campo na final da Copa do Mundo de 2014?;Mário Goetze,Sergio Aguero,Lionel Messi;Mário Goetze;10,7,19;19
+Qual jogador é conhecido como "O Fenômeno"?;Ronaldinho Gaúcho,Ronaldo,Neymar;Ronaldo;10,7,9;9
+Qual jogador é conhecido como "O Rei"?;Pelé,Maradona,Messi;Pelé;10,7,11;10
+Qual jogador é conhecido como "O Mágico"?;Ronaldinho Gaúcho,Kaká,Rivaldo;Ronaldinho Gaúcho;7,9,10;10
+Qual jogador é conhecido como "O Galinho"?;Romário,Zico,Garrincha;Zico;10,7,11;10
+Qual jogador é conhecido como "GOAT"?;Cristiano Ronaldo,Lionel Messi,Pele;Cristiano Ronaldo;7,10,11;7

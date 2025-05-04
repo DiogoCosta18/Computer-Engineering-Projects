@@ -1,0 +1,6 @@
+texto pergunta;opcaofacil1,opcaofacil2,opcaofacil3;opcaodificil1;opcaodificil2;opcaodificil3;solucao
+Quantas gramas pesa um litro de água?;1,10,100,1000;1,10,100,500,800,1000,10000;1000
+A hiena pertence a que família animal?;Felinos,Canídeos,Nenhuma delas;Felinos,Canídeos,Necrófagos,Akeridae,Nenhuma delas;Nenhuma delas
+Qual é o símbolo químico do oxigênio?;O,H,Og,C;Ox,Og,Oxg,O;0
+Qual é a principal função dos glóbulos vermelhos no sangue?;Transportar oxigênio,Digestão,Produzir oxigênio;Combater infecções,Transportar oxigênio,Filtragem renal;Transportar oxigênio
+Qual é a fórmula química da água?;H2O2,CH4,NaCl,H2O;Ag,H2O,CO2,O2;H2O

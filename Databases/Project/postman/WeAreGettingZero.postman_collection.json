@@ -1,0 +1,465 @@
+{
+	"info": {
+		"_postman_id": "0925afac-8ff3-42a2-9fc2-b2a4ba04af04",
+		"name": "WeAreGettingZero",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34929222"
+	},
+	"item": [
+		{
+			"name": "Register Patient",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Patient1\",\r\n  \"username\": \"Patient1\",\r\n  \"password\": \"123\",\r\n  \"mail\": \"Patient1@hms.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/register/patient",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"register",
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Doctor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Doctor1\",\r\n  \"username\": \"Doctor1\",\r\n  \"password\": \"123\",\r\n  \"mail\": \"Doctor1@hms.com\",\r\n  \"contract_salary\": 300,\r\n  \"doctor_specializations\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/register/doctor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"register",
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Nurse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Nurse1\",\r\n  \"username\": \"Nurse1\",\r\n  \"password\": \"123\",\r\n  \"mail\": \"Nurse1@hms.com\",\r\n  \"contract_salary\": 10,\r\n  \"responsible_for\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/register/nurse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"register",
+						"nurse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Assistant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Assistant1\",\r\n  \"username\": \"Assistant1\",\r\n  \"password\": \"123\",\r\n  \"mail\": \"Assistant1@balls.com\",\r\n  \"contract_salary\": 150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/register/assistant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"register",
+						"assistant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Assistant1\",\r\n    \"password\": \"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Schedule Appointment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjgwNTU0NiwianRpIjoiN2I3ZWZmMDAtNTk3YS00NGYyLTg4NGItZTEwZWZiMGExZjc1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJyb2xlIjoicGF0aWVudCIsInVzZXJfaWQiOjR9LCJuYmYiOjE3MTY4MDU1NDYsImNzcmYiOiJjNGI3M2M5Zi04NDM2LTRlM2EtOGZhOS03ZmI4MTE5ZjY0ZmUiLCJleHAiOjE3MTY4MDY0NDZ9.5HBaHcsy-vEnsMEB05ogSwf3z-DuuZVdVRMJ7bxSxGA"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"startdate\": \"2029-05-22\",\r\n    \"doctor_employee_contract_person_id\": 3,\r\n    \"assistant_employee_contract_person_id\": 1,\r\n    \"nurse_employee_contract_person_id\": [2]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/appointment/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"appointment",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "See Appointments",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjcyMTkwNCwianRpIjoiMDkxODI5Y2EtNTczYi00OTM0LTliM2MtMThiZGI3YjM1NTM5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJyb2xlIjoibnVyc2UiLCJ1c2VyX2lkIjoyfSwibmJmIjoxNzE2NzIxOTA0LCJjc3JmIjoiZGY0NDFmYmEtMjk2Ny00OTg4LWI3YjktZGJhYzQ5ZGVkMDcyIiwiZXhwIjoxNzE2NzIyODA0fQ.illWIt9tSrMBDmJdBqmCVMbcFKyI5IeKLON9ZFwOZTs"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/dbproj/appointment/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"appointment",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Schedule Surgery",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjgwNTYzOSwianRpIjoiYjQ3ZDEyMTktNjdkOS00ZDAxLTllNjktYTI1MmU2NjMzZTIxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJyb2xlIjoiYXNzaXN0YW50IiwidXNlcl9pZCI6MX0sIm5iZiI6MTcxNjgwNTYzOSwiY3NyZiI6IjEzNzczOTA0LWYxYWItNDZhNy04MDU3LTMyMWFmYjhiZTI4ZiIsImV4cCI6MTcxNjgwNjUzOX0.6glVxlzmrWrAH0hr4GiBqqzlEj7PWNf2Sfr-xWGXkxk"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"startdate\": \"2024-05-23\",\r\n    \"doctor_employee_contract_person_id\": 3,\r\n    \"assistant_employee_contract_person_id\": 1,\r\n    \"patient_person_id\": 4,\r\n    \"nurses\": [\r\n        {\r\n            \"nurse_user_id\": 2,\r\n            \"role\": \"anestesista1\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/surgery",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"surgery"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Schedule Surgery With Hospitalization",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjcyMjM2OSwianRpIjoiMjZlZGE1M2QtOTNjNi00Y2QzLTg2MzAtOGE5NmQxN2M4MTVmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJyb2xlIjoiYXNzaXN0YW50IiwidXNlcl9pZCI6NH0sIm5iZiI6MTcxNjcyMjM2OSwiY3NyZiI6IjJmN2Y1YTQ1LTExZTUtNGIyMy04MjQ5LWFiMDNmNDI2ZTUxZSIsImV4cCI6MTcxNjcyMzI2OX0.WtxA1TrdV3uaSE4cxWzp5tna5xqhpdX6XlhWufx_hp4"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"startdate\": \"2025-05-23\",\r\n    \"doctor_employee_contract_person_id\": 3,\r\n    \"assistant_employee_contract_person_id\": 4,\r\n    \"patient_person_id\": 6,\r\n    \"nurses\": [\r\n        {\r\n            \"nurse_user_id\": 2,\r\n            \"role\": \"anestesista1\"\r\n        },\r\n        {\r\n            \"nurse_user_id\": 5,\r\n            \"role\": \"anestesista2\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/surgery/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"surgery",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Prescription",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjgwMzkwNiwianRpIjoiYjExMTVjZjEtZTM2Ny00MGEzLWExZWQtZGMyODE4MGVhMjgyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJyb2xlIjoiZG9jdG9yIiwidXNlcl9pZCI6M30sIm5iZiI6MTcxNjgwMzkwNiwiY3NyZiI6IjYwMDMxYTJiLTJlMGQtNDNkMi1hMmYzLWNiOWIzMzUwMWQ2MCIsImV4cCI6MTcxNjgwNDgwNn0.PKH4gFwdLxjB7i5gby_ljSj29_rLSy8wvurrKji9qbg"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"type\": \"appointment\",\r\n  \"validity\": \"2024-05-23\",\r\n  \"posology_information\": [\r\n    {\r\n      \"medicine_name\": \"med1\",\r\n      \"posology_dose\": 1,\r\n      \"posology_quantity\": 2\r\n    },\r\n    {\r\n      \"medicine_name\": \"med2\",\r\n      \"posology_dose\": 2,\r\n      \"posology_quantity\": 3\r\n    }\r\n  ],\r\n  \"event_id\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/prescription",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"prescription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Prescriptions",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjcyNDkyMywianRpIjoiYjMxM2RlYWItYzhlNy00ZGZiLTgyNzAtMzQ5ZDkyYWZmYjJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJyb2xlIjoiZG9jdG9yIiwidXNlcl9pZCI6M30sIm5iZiI6MTcxNjcyNDkyMywiY3NyZiI6IjlkZmVhNTI5LTZlYzUtNGE4Ni05MmEwLTBjNzMwNTdhZmUyOSIsImV4cCI6MTcxNjcyNTgyM30.JmSgQ6EoWfPK1Wd-R2bqZ5eWzWbw7uZogUO3q8d-gyc"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/dbproj/prescriptions/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"prescriptions",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Execute Payment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/bills/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"bills",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Top3 Patients",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/dbproj/top3/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"top3",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Daily Summary",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjgwNDI0MSwianRpIjoiMWM3ZGQ3ZWUtM2Y1OS00NjI4LTkwOWItZjNiODcxYWY0MmZmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJyb2xlIjoiYXNzaXN0YW50IiwidXNlcl9pZCI6NH0sIm5iZiI6MTcxNjgwNDI0MSwiY3NyZiI6IjVjZWEzOGU5LTM4NWEtNDllNC05YjM1LTdjZmE0ZDNmN2JkYiIsImV4cCI6MTcxNjgwNTE0MX0.Pwh0ucfdik3VCyNFUM766t-zZourcJZzufgk1oHHizc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/dbproj/daily/2024-05-23",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"daily",
+						"2024-05-23"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Monthly Report",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNjgwNDYzOCwianRpIjoiYzMxMTBkNjMtY2E0Zi00MDg1LThlNDgtNmZkODdlOWMxMDNlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6eyJyb2xlIjoiYXNzaXN0YW50IiwidXNlcl9pZCI6NH0sIm5iZiI6MTcxNjgwNDYzOCwiY3NyZiI6IjY5MjljODdhLWNjZDUtNDQ3Mi1hZTIyLTI1NTNlNmNlMzhlYiIsImV4cCI6MTcxNjgwNTUzOH0.FD_LSe9MoFd1JU5l5MmldLrmI6cfNXI9T1oCmxJTLbw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/dbproj/report",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"report"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

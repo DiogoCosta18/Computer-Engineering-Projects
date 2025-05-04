@@ -1,0 +1,5 @@
+770:1000:1001:/home/class_server
+644:0:0:/home/.gns3_perms
+770:1000:1001:/home/data/conf.txt
+775:1000:1001:/home/data
+777:0:0:/home

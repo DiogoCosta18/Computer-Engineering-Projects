@@ -1,0 +1,4 @@
+boas;boas;aluno
+jorge;mtu67453;administrator
+manuel;zpt567;aluno
+joana;azq1212;professor

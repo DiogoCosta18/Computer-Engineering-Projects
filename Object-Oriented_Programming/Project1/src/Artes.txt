@@ -1,0 +1,6 @@
+texto pergunta;opcao1,opcao2,opcao3,opcao4;solucao
+Quem pintou "A Noite Estrelada"?;Claude Monet,Pablo Picasso,Theo van Gogh,Leonardo da Vinci;Vincent van Gogh
+Qual é o nome da escultura de Michelangelo que representa um homem nu em pé com proporções perfeitas?;O Pensador,Moisés,Davi,A Criação de Adão;O Homem Vitruviano
+Quem foi um dos pioneiros da arte abstrata, famoso por suas composições geométricas e uso de formas primárias?;Kazimir Malevich,Georgia O'Keeffe,Jackson Pollock,Piet Mondrian;Wassily Kandinsky
+Qual movimento artístico do século XX foi marcado pelo uso de imagens do quotidiano e muitas vezes explorava a crítica social?;Expressionismo,Dadaísmo,Cubismo,Surrealismo;Pop Art
+Quem é considerado um dos principais representantes do surrealismo, conhecido por suas obras intrigantes, como "A Persistência da Memória"?;Max Ernst,Joan Miró,Frida Kahlo,René Magritte;Salvador Dalí

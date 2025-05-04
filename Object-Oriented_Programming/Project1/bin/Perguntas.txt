@@ -1,0 +1,2 @@
+texto pergunta;opcao1,opcao2,opcao3;solucao
+Quantas gramas pesa um litro de água?;
