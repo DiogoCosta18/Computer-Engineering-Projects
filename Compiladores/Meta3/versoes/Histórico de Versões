@@ -1,0 +1,119 @@
+Histórico de Versões
+
+gocompiler.zip --> versão final meta2
+
+gocompiler_2.zip --> 	ja cria a tabela global com as variáveis e múltiplas variáveis
+			ja cria a tabela main e adiciona os parâmetros corretamente
+
+			Quase q passa no teste:	package main;
+					var a int;
+					var b,c int;
+					func main (d int,e int) int {}
+
+
+			Retorna: ===== Global Symbol Table =====
+				a	int
+				b	int
+				c	int
+				main	()	int
+
+				===== main Symbol Table =====
+				return	int
+				d	int
+				e	int
+
+
+gocompiler_3.zip --> se na declaração do main nao estiver o int eles nao imprime o d e o e
+
+			Passa no teste:	package main;
+					var a int;
+					var b,c int;
+					func main (d int,e float32) int {}
+
+
+			Retorna: ===== Global Symbol Table =====
+				a	int
+				b	int
+				c	int
+				main	(int,float32)	int
+
+				===== main Symbol Table =====
+				return	int
+				d	int
+				e	float32
+
+
+			Falha:	package main;
+				var a int;
+				var b,c int;
+				func main (d int,e float32) {}
+
+			Retorna: ===== Global Symbol Table =====
+				a	int
+				b	int
+				c	int
+				main	()	none
+
+				===== main Symbol Table =====
+				return	none
+
+gocompiler_4.zip --> corrigi o problema do 3. Agora ja tem essa parte bem 
+			Vou comecar agr a tratar do funcBody
+			O problema estava qnd n havia type o numero do Child mudava
+
+
+gocompiler_5.zip --> 	funcBody feito a parte do varDecl
+			no varDecl faltava a verificar se a variavel ja estava declarada na 				tabela global
+
+gocompiler_6.zip --> 	Ja tem algum conteudo do funcbody e devo seguir esta estrutura
+			Corrigido o print do show_table
+
+VERSAO_BACKUP.zip -->	Tive de guardar por estive a mexer na estrutura do codigo mas depois 				voltei a trás para esta versao	
+
+gocompiler_7.zip --> 	Print das tabelas corrigido --> acho q agr foi de vez
+			Tem problemas no Return e no Call --> vou corrigi-los agr 
+
+gocompiler_8.zip -->    Passa no factorial
+
+gocompiler_9.zip --> 	Passa factorial e logical_operators --> erro estava no vardecl que nao 				deixava variáveis com mesmo nome mas tipos diferentes
+
+gocompiler_10.zip --> 	No print da AST quando e no_type ja nao imprime
+
+gocompiler_11.zip --> 	Tem erro no Call
+			Ja tem algumas mensagens de erro bem feitas
+
+
+gocompiler_12.zip -->	Ja nem sei bem o q isto tem mas o Call esta praticamente feito so tenho 			de corrigir cenas nos prints do erros acho eu
+			No print da AST anotada tenho de alterar para quando o id e um call e 				qnd n e
+
+gocompiler_13.zip -->	Passa no factorial e no errors_nonefunccalls
+
+gocompiler_14.zip -->	Passa no factorial, errors_nonefunccalls, valid_program e 					variable_func_symtab
+
+gocompiler_15.zip -->	Alterei o VarDecl para variáveis com o msm nome darem
+			Passa no factorial, errors_nonefunccalls, valid_program, 					variable_func_symtab e logical_operators
+
+gocompiler_16.zip -->	Peguei no 15 e tentei alterar a estrutura
+			Agr vou voltar a pegar no 15 e refazer td
+
+
+gocompiler_15-2.zip --> Peguei no 15 q ja passava em 5 testes e comecei a corrigi-lo 
+			Neste momento ja tem o codigo mais limpo e verifica tds os erros dos 				expressions e dos statements
+
+
+gocompiler_15-2_#1.zip --> Alterei o o Assign e o Gt
+			Passa no factorial, errors_nonefunccalls, valid_program, 					variable_func_symtab, logical_operators, errors_parseargs
+
+
+gocompiler_15-2_#2.zip --> Ja tenho o funcBody a ser verificado depois das tabelas
+			   Optei por guardar o no na estrutura da tabela
+			
+			Passa no factorial, errors_nonefunccalls, valid_program, 					variable_func_symtab, logical_operators, errors_parseargs, symbols
+
+			Errors e Func_assign --> so tem as linhas trocadas dos erros
+
+			Statements--> ta td fdd💀
+
+gocompiler_15-2_#3.zip --> Passa nos mesmos mas agr ja verifica se e uma funcao no identifier
+				E tbm corrigi um erro no assign
+				E mudei um pouco a estrutura do CALL 

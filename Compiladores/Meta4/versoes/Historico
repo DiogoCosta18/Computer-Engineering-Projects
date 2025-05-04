@@ -1,0 +1,13 @@
+#2 -->  	ja tem os expression feitos so falta o call
+		precisa de flag no return das funcoes
+		ja tem o return feito dos statements
+
+#3 -->		flag do return feita
+		for tbm acho q esta feito
+		falta parseargs, print e call
+
+#4 -->		ja tem os prints mais simples a funcionar
+		falta Strlit, lidar com floats, call, ...
+
+#5 -->		ja tem o Strlit e as escape sequences a dar
+		falta fzr call e parseargs e acho q fica quase td feito
